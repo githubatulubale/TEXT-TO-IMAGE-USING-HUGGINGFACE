@@ -1,23 +1,42 @@
-# TEXT-TO-IMAGE-USING-HUGGINGFACE
 # 🖼️ Text to Image Generation App
 
-This project is an **AI-powered Image to Text App** built using **Hugging Face** models and a **Gradio UI**. It extracts text or generates image captions from images using the `stabilityai/stable-diffusion-2-1-base` model.
-
----
+This is a simple Text-to-Image generation app using Hugging Face's Stable Diffusion model with a Gradio UI.
 
 ## 🚀 Features
 
-- ✅ Hugging Face model integration  
-- ✅ Access token-based secure login  
-- ✅ Gradio-powered simple web interface  
-- ✅ Easy setup with `requirements.txt`
+- Generate stunning images from any text prompt.
+- Uses the `stabilityai/stable-diffusion-2-1-base` model.
+- Clean and interactive UI using Gradio.
+- Easy setup with Hugging Face and Python packages.
 
 ---
 
-## 📦 Requirements
+## 📋 Step-by-Step Setup Guide
 
-Install all dependencies using:
+### 1️⃣ Login to Hugging Face
 
-```bash
-pip install -r requirements.txt
+- Visit: [https://huggingface.co](https://huggingface.co)
+- Sign in to your account or create a new one.
 
+### 2️⃣ Create Access Token
+
+- Go to your **Profile** → **Settings** → **Access Tokens**
+- Click on **New Token**
+- Give it a name (e.g., `text2image-token`)
+- Set permission to `Read`
+- Click **Create Token**
+- Copy the generated token
+
+### 3️⃣ Install Required Python Packages
+
+Run the following command in your terminal:
+
+ pip install diffusers transformers accelerate scipy safetensors
+
+### 3️⃣ Run This Command
+    !huggingface-cli login
+
+### 3️⃣ Run pipeline Code
+
+### Pip Install Gradio
+    Run the user interface file                
