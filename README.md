@@ -2,7 +2,7 @@
 
 This is a simple Text-to-Image generation app using Hugging Face's Stable Diffusion model with a Gradio UI.
 
-## 🚀 Features
+## 🚀 Features.
 
 - Generate stunning images from any text prompt.
 - Uses the `stabilityai/stable-diffusion-2-1-base` model.
